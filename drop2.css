@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    font-family: arial;
+}
+span {
+    color: red;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+}
+.nav-list {
+    display: flex;
+}
+.nav-list li {
+    list-style-type: none;
+}
+.nav-list a {
+    text-decoration: none;
+    margin: 0 30px;
+    display: block;
+    font-family: arial;
+    color: white;
+    padding: 10px;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    position: absolute;
+    display: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: blue;
+}

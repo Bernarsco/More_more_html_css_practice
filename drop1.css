@@ -1,0 +1,55 @@
+
+body {
+    background-image: url("cosmetic.jpg");
+    background-size: cover;
+    background-color: rgb(184, 147, 79);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    font-family: arial;
+    font-size: 45px;
+    margin: 0 10px;
+}
+.logo span {
+    color: blue;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+}
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
+.nav-list li {
+    margin: 0 30px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    padding: 10px;
+    display: block;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content:hover {
+    background-color: blue;
+}
